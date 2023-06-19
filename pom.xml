@@ -108,7 +108,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>LIONTECH-ACADEMY-DEVOPS Class of Grace</finalName>
+		<finalName>LIONTECH-ACADEMY-DEVOPS-Class-of-Grace</finalName>
 		
 		<plugins>
 			<plugin>
