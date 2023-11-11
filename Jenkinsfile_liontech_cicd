@@ -12,8 +12,8 @@ node{
   }
   stage('4uploadArtifacts'){
     //sh "${mavenHome}/bin/mvn deploy"
-    //http://52.53.227.31:8191/landmark/repository/tesla-fe-snapshots/
-    //http://52.53.227.31:8191/landmark/repository/tesla-fe-releases/
+    //http://52.53.227.31:8191/LionTech/repository/tesla-fe-snapshots/
+    //http://52.53.227.31:8191/LionTech/repository/tesla-fe-releases/
     // vi pom.xml and added repository details   
     // vi setting.xml and add AUTHENTICATION details  
   } 
