@@ -38,7 +38,7 @@ node{
         }
     }
 
-    stage("9DEPLOY2PROD"){
+    stage('9DEPLOY2PROD'){
         sh "sleep 50"
         deploy adapters: [tomcat9(credentialsId: 'tomcat-deployer', path: '', url: 'http://3.145.120.48:8009/')], contextPath: 'production', war: 'target/*.war'
     }
