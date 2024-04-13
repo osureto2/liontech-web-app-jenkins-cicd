@@ -6,9 +6,11 @@ node{
     stage('2.Build'){sh "${mavenHome}/bin/mvn clean package"
        
     }
+    /*
     stage('3.Analysis'){sh "${mavenHome}/bin/mvn sonar:sonar"
         
     }
+    */
     stage('4.Upload'){sh "${mavenHome}/bin/mvn deploy"
         
     }
