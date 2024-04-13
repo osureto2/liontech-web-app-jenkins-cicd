@@ -24,7 +24,7 @@
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://18.117.224.125:9000/</sonar.host.url>
 		<sonar.login>osureto2</sonar.login>  
-		<sonar.login></sonar.login>
+		<sonar.login>02b63a3134f5b372ed240a9f5db6c7d93f1c7423</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
