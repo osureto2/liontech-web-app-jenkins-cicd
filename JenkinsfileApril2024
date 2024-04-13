@@ -1,7 +1,7 @@
 node{
     def mavenHome = tool name: 'Maven'
     stage('1.SCMPull'){
-        git ""
+        git "https://github.com/osureto2/liontech-web-app-jenkins-cicd.git"
     }
     stage('2.Build'){sh "${mavenHome}/bin/mvn clean package"
        
