@@ -22,9 +22,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.145.120.48:9000/ </sonar.host.url>
-		<sonar.login>admin</sonar.login>  
-		<sonar.login>accd218022188752fa4ef76763d05ac9c3693837</sonar.login>
+		<sonar.host.url>http://18.117.224.125:9000/</sonar.host.url>
+		<sonar.login>osureto2</sonar.login>  
+		<sonar.login>02b63a3134f5b372ed240a9f5db6c7d93f1c7423</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Releases Nexus Repository</name>
-	      <url> http://18.218.161.80:8081/repository/jenkins-class21-release/</url>
+	      <url>http://18.190.26.145:8081/repository/Liontech-Jenkins-Project-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Snapshot Nexus Repository </name>
-	      <url> http://18.218.161.80:8081/repository/liontech-web-apps-snapshots/</url>
+	      <url>http://18.190.26.145:8081/repository/Liontech-Jenkins-Project-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
